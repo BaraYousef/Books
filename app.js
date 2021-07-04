@@ -50,6 +50,7 @@ else if(input == '2'){
 else{
 alert('only 1 or 2')}
 
+<<<<<<< HEAD
 }
 
 robertGreene();
@@ -70,3 +71,5 @@ function starsfunction(num){
  
  }
 }
+=======
+>>>>>>> ab365d6915e29de59bf09b677acccf115adfba4c
