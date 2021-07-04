@@ -1,13 +1,11 @@
-<<<<<<< HEAD
-g
-=======
-
->>>>>>> e972825ff44be85e10b1691a4ebfbb25279e8928
 
 
 
 alert('welcome to Robert Greene website');
 var input = prompt('which Book Do You like 1- power 2-strategy by entering the number');
+
+function robertGreene(){
+
 
 
 while(input != '1' && input!='2' ){
@@ -16,7 +14,7 @@ while(input != '1' && input!='2' ){
   document.write('you like' + input)
 }
  
-<<<<<<< HEAD
+
  var numof =prompt(' how many times '+ input +' do you want to see ');
  
   for (var i=0 ; i< numof ; i++){
@@ -39,7 +37,7 @@ while(input != '1' && input!='2' ){
 
 
 }
-=======
+
  
 
 if(input == '1')
@@ -51,4 +49,24 @@ else if(input == '2'){
 }
 else{
 alert('only 1 or 2')}
->>>>>>> e972825ff44be85e10b1691a4ebfbb25279e8928
+
+}
+
+robertGreene();
+var stars =prompt('how many stars do u rate our website')
+
+starsfunction(stars);
+function starsfunction(num){
+
+
+
+
+
+ for (var i=0 ; i< num; i++){
+
+      
+
+     document.write( '<img src="https://image.shutterstock.com/image-vector/five-pointed-yellow-star-icon-260nw-543076969.jpg">')
+ 
+ }
+}
